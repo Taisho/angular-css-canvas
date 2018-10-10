@@ -1,0 +1,17 @@
+@keyframes rotation {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.play {
+    animation-timing-function: linear;
+    animation-name: rotation;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+}
+
+.vinyl {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
